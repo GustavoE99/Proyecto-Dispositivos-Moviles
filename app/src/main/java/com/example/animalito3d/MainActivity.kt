@@ -9,11 +9,13 @@ import android.widget.TextView
 import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
+
+    var ingresa_btn=findViewById<Button>(R.id.ingresar_btn)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var ingresa_btn=findViewById<Button>(R.id.ingresar_btn)
+
         var text=findViewById<TextInputLayout>(R.id.text)
         var nombre=findViewById<EditText>(R.id.nombre)
 
