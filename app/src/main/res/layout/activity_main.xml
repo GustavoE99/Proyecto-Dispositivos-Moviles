@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/resource_new"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <ImageView
@@ -50,10 +50,13 @@
 
     <Button
         android:id="@+id/ingresarbt"
-        style="@style/Boton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="173dp"
+        android:layout_height="79dp"
+        android:backgroundTint="@color/Celeste"
         android:text="INGRESAR"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

@@ -15,14 +15,29 @@
         android:theme="@style/Theme.ModelViewer">
 
         <activity
-            android:name=".ui.modelviewer.ModelViewerFragment1"
+            android:name=".ui.modelviewer.ModelGato"
             android:exported="false" />
         <activity
-            android:name=".ui.modelviewer.ModelViewerFragment"
+            android:name=".ui.modelviewer.ModelPerro"
             android:exported="false" />
         <activity
-            android:name=".ui.home.HomeFragment"
+            android:name=".ui.modelviewer.ModelHamster"
             android:exported="false" />
+        <activity
+            android:name=".ui.modelviewer.ModelPerico"
+            android:exported="false" />
+        <activity
+            android:name=".ui.modelviewer.ModelPez"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.Casa"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.Granja"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

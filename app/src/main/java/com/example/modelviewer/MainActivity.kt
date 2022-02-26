@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.modelviewer.databinding.ActivityMainBinding
-import com.example.modelviewer.ui.home.HomeFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,7 +19,7 @@ class MainActivity : AppCompatActivity() {
                 binding.text.error=getString(R.string.error)
             }else{
                 binding.text.error=null
-            var intent= Intent(this, HomeFragment::class.java)
+            var intent= Intent(this, Menu::class.java)
             startActivity(intent) }
         }
     }
