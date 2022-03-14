@@ -8,12 +8,37 @@
     tools:context=".Menu">
 
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/casabt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escoge una opción"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/casabt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
     <Button
         android:id="@+id/casabt"
         style="@style/Widget.Material3.Button.ElevatedButton.Icon"
         android:layout_width="180dp"
         android:layout_height="85dp"
-        android:backgroundTint="@color/Celeste"
+        android:backgroundTint="@color/Verde"
         android:text="Casa"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -22,16 +47,17 @@
         app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.384" />
 
     <Button
         android:id="@+id/granjabt"
         style="@style/Widget.Material3.Button.ElevatedButton.Icon"
         android:layout_width="180dp"
         android:layout_height="85dp"
-        android:backgroundTint="@color/Celeste"
+        android:backgroundTint="@color/Verde"
         android:text="Granja"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -40,9 +66,10 @@
         app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/casabt"
-        app:layout_constraintVertical_bias="0.16000003" />
+        app:layout_constraintVertical_bias="0.123" />
 
     <Button
         android:id="@+id/creditosbt"
@@ -58,7 +85,8 @@
         app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/granjabt"
-        app:layout_constraintVertical_bias="0.26" />
+        app:layout_constraintVertical_bias="0.866" />
 </androidx.constraintlayout.widget.ConstraintLayout>
