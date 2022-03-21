@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <body background="https://cdn.glitch.global/e5640d6a-7417-4bff-bedd-a4271f6c0939/granjaFondo.png?v=1647642030217">
+        <!-- Import the component -->
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+
+        <model-viewer
+                id="reveal"
+                loading="eager"
+                camera-controls="true"
+                auto-rotate="true"
+                src="https://cdn.glitch.global/e5640d6a-7417-4bff-bedd-a4271f6c0939/Gallina.gltf?v=1647572075819"
+                alt="Gallina [3D]"
+                ar-status="not-presenting"
+                style="width: 100%; height: 80%; position: absolute; left: 0px; top: 0px; z-index: 0; display: block;">
+        </model-viewer>
+
+        <h1 align="center">Gallina</h1>
+
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+        <audio id="audio" src= "https://cdn.glitch.global/e5640d6a-7417-4bff-bedd-a4271f6c0939/gallina.mp3?v=1647555596877" ></audio>
+
+        <center> <input id="boton" type="image"  src="https://cdn.glitch.global/e5640d6a-7417-4bff-bedd-a4271f6c0939/PLAY.png?v=1647298498395" width="70" height="70"></center>
+
+        <script type="text/javascript" >
+        var v = document.getElementsByTagName("audio")[0];
+        var sound = false;
+
+        var boton = document.getElementById("boton");
+        boton.addEventListener("click", function(){
+	    if (!sound) {
+		    v.play();
+            sound = true;
+	    } else {
+		    v.pause();
+            sound = false;
+	    }
+        });
+         </script>
+
+    </body>
+
+
+</html>

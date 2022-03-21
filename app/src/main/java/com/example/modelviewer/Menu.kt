@@ -10,7 +10,7 @@ import com.example.modelviewer.ui.home.Granja
 class Menu : AppCompatActivity() {
 
     private lateinit var  binding: MenuBinding
-
+//
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= MenuBinding.inflate(layoutInflater)
@@ -25,7 +25,7 @@ class Menu : AppCompatActivity() {
             startActivity(intent) }
 
         binding.creditosbt.setOnClickListener() {
-            var intent= Intent(this, Casa::class.java)
+            var intent= Intent(this, Creditos::class.java)
             startActivity(intent) }
 
     }}

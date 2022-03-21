@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/hamster" />
+                    app:srcCompat="@drawable/cerdo" />
 
                 <TextView
                     android:layout_width="64dp"
@@ -74,7 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/gato" />
+                app:srcCompat="@drawable/pato" />
 
             <TextView
                 android:layout_width="70dp"
@@ -115,7 +115,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/gato" />
+                    app:srcCompat="@drawable/gallina" />
 
                 <TextView
                     android:layout_width="64dp"
@@ -156,7 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/gato" />
+                    app:srcCompat="@drawable/oveja" />
 
                 <TextView
                     android:layout_width="64dp"
@@ -196,7 +196,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/perrito" />
+                    app:srcCompat="@drawable/vaca" />
 
                 <TextView
                     android:layout_width="64dp"
